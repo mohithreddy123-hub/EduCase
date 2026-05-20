@@ -41,7 +41,6 @@ src/
  ├── App.jsx                   # React Router wrapper configuration
  └── main.jsx                  # Root client-side render
 ```
-
 ---
 
 ## 🛠️ Project Setup Instructions
