@@ -1,0 +1,46 @@
+.loginWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 36px 24px;
+}
+
+.headerSection {
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin-bottom: 8px;
+  line-height: 1.25;
+}
+
+.subtitle {
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+}
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.loginBtn {
+  margin-top: 12px;
+}
+
+.submitError {
+  background-color: rgba(229, 62, 62, 0.08);
+  border-left: 3px solid var(--color-error);
+  color: var(--color-error);
+  padding: 10px 14px;
+  border-radius: 4px;
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}

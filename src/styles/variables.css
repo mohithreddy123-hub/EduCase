@@ -1,0 +1,32 @@
+:root {
+  /* Colors */
+  --color-primary: #6c25e9;
+  --color-primary-hover: #5c1fd0;
+  --color-secondary: #edd8f6; /* Peach-lavender light background for "Already Registered" button */
+  --color-secondary-hover: #e0c2ed;
+  --color-background-desktop: #f6f8fa;
+  --color-background-app: #ffffff;
+  --color-text-dark: #1d2226;
+  --color-text-secondary: #7e868f;
+  --color-text-light: #ffffff;
+  --color-border: #cbcbcb;
+  --color-border-focus: #6c25e9;
+  --color-error: #e53e3e;
+  --color-success: #38a169;
+  
+  /* Fonts */
+  --font-family: 'Poppins', 'Montserrat', sans-serif;
+  
+  /* Layout */
+  --app-width: 375px;
+  --app-height: 812px;
+  --app-border-radius: 12px;
+  
+  /* Shadows */
+  --shadow-desktop: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --shadow-inner: 0 2px 8px rgba(0, 0, 0, 0.02);
+  
+  /* Transitions */
+  --transition-fast: 0.2s ease;
+  --transition-normal: 0.3s ease;
+}

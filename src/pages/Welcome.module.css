@@ -1,0 +1,40 @@
+.welcomeWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 100%;
+  min-height: 100%;
+  padding: 36px 24px;
+}
+
+.contentSection {
+  margin-bottom: auto;
+  margin-top: 140px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--color-text-dark);
+  margin-bottom: 12px;
+  line-height: 1.2;
+}
+
+.description {
+  font-size: 15px;
+  line-height: 1.6;
+  color: var(--color-text-secondary);
+  font-weight: 400;
+}
+
+.buttonSection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.welcomeBtn {
+  font-size: 15px;
+  letter-spacing: 0.2px;
+}
